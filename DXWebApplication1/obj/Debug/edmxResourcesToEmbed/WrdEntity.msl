@@ -1,0 +1,1152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="wrdModel1StoreContainer" CdmEntityContainer="wrdEntities1">
+    <EntitySetMapping Name="appraisal_opinion_master">
+      <EntityTypeMapping TypeName="wrdModel1.appraisal_opinion_master">
+        <MappingFragment StoreEntitySet="appraisal_opinion_master">
+          <ScalarProperty Name="appraisal_id" ColumnName="appraisal_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL006" ColumnName="TRIAL006" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="appraisal_recommendation_master">
+      <EntityTypeMapping TypeName="wrdModel1.appraisal_recommendation_master">
+        <MappingFragment StoreEntitySet="appraisal_recommendation_master">
+          <ScalarProperty Name="appr_ar_id" ColumnName="appr_ar_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="basin_type_master">
+      <EntityTypeMapping TypeName="wrdModel1.basin_type_master">
+        <MappingFragment StoreEntitySet="basin_type_master">
+          <ScalarProperty Name="basin_type_id" ColumnName="basin_type_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="day_master">
+      <EntityTypeMapping TypeName="wrdModel1.day_master">
+        <MappingFragment StoreEntitySet="day_master">
+          <ScalarProperty Name="day_id" ColumnName="day_id" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="department_user_master">
+      <EntityTypeMapping TypeName="wrdModel1.department_user_master">
+        <MappingFragment StoreEntitySet="department_user_master">
+          <ScalarProperty Name="dept_user_id" ColumnName="dept_user_id" />
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="office_id" ColumnName="office_id" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="designation_id" ColumnName="designation_id" />
+          <ScalarProperty Name="reporting_office_id" ColumnName="reporting_office_id" />
+          <ScalarProperty Name="reporting_role_id" ColumnName="reporting_role_id" />
+          <ScalarProperty Name="mobile_no" ColumnName="mobile_no" />
+          <ScalarProperty Name="email_id" ColumnName="email_id" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="designation_master">
+      <EntityTypeMapping TypeName="wrdModel1.designation_master">
+        <MappingFragment StoreEntitySet="designation_master">
+          <ScalarProperty Name="designation_id" ColumnName="designation_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="district_master">
+      <EntityTypeMapping TypeName="wrdModel1.district_master">
+        <MappingFragment StoreEntitySet="district_master">
+          <ScalarProperty Name="district_id" ColumnName="district_id" />
+          <ScalarProperty Name="district_name" ColumnName="district_name" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="document_category_master">
+      <EntityTypeMapping TypeName="wrdModel1.document_category_master">
+        <MappingFragment StoreEntitySet="document_category_master">
+          <ScalarProperty Name="doc_cat_id" ColumnName="doc_cat_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="document_details">
+      <EntityTypeMapping TypeName="wrdModel1.document_details">
+        <MappingFragment StoreEntitySet="document_details">
+          <ScalarProperty Name="dd_id" ColumnName="dd_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="doc_type_id" ColumnName="doc_type_id" />
+          <ScalarProperty Name="original_filename" ColumnName="original_filename" />
+          <ScalarProperty Name="revised_filename" ColumnName="revised_filename" />
+          <ScalarProperty Name="updaated_date" ColumnName="updaated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="document_type_master">
+      <EntityTypeMapping TypeName="wrdModel1.document_type_master">
+        <MappingFragment StoreEntitySet="document_type_master">
+          <ScalarProperty Name="doc_type_id" ColumnName="doc_type_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="doc_category_id" ColumnName="doc_category_id" />
+          <ScalarProperty Name="max_size_limit" ColumnName="max_size_limit" />
+          <ScalarProperty Name="mandatory_col" ColumnName="mandatory_col" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="document_type_master_kum">
+      <EntityTypeMapping TypeName="wrdModel1.document_type_master_kum">
+        <MappingFragment StoreEntitySet="document_type_master_kum">
+          <ScalarProperty Name="doc_type_id" ColumnName="doc_type_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="doc_category_id" ColumnName="doc_category_id" />
+          <ScalarProperty Name="max_size_limit" ColumnName="max_size_limit" />
+          <ScalarProperty Name="mandatory_col" ColumnName="mandatory_col" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="drawal_mode_master">
+      <EntityTypeMapping TypeName="wrdModel1.drawal_mode_master">
+        <MappingFragment StoreEntitySet="drawal_mode_master">
+          <ScalarProperty Name="dmm_id" ColumnName="dmm_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL009" ColumnName="TRIAL009" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="final_recommendation">
+      <EntityTypeMapping TypeName="wrdModel1.final_recommendation">
+        <MappingFragment StoreEntitySet="final_recommendation">
+          <ScalarProperty Name="fr_id" ColumnName="fr_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="rs_id" ColumnName="rs_id" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="recommendation_note" ColumnName="recommendation_note" />
+          <ScalarProperty Name="recommendation_date" ColumnName="recommendation_date" />
+          <ScalarProperty Name="recommended_by" ColumnName="recommended_by" />
+          <ScalarProperty Name="go_date" ColumnName="go_date" />
+          <ScalarProperty Name="original_filename" ColumnName="original_filename" />
+          <ScalarProperty Name="revised_filename" ColumnName="revised_filename" />
+          <ScalarProperty Name="go_number" ColumnName="go_number" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="furnish_master">
+      <EntityTypeMapping TypeName="wrdModel1.furnish_master">
+        <MappingFragment StoreEntitySet="furnish_master">
+          <ScalarProperty Name="furnish_id" ColumnName="furnish_id" />
+          <ScalarProperty Name="furnish_description" ColumnName="furnish_description" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="holiday_master">
+      <EntityTypeMapping TypeName="wrdModel1.holiday_master">
+        <MappingFragment StoreEntitySet="holiday_master">
+          <ScalarProperty Name="hm_id" ColumnName="hm_id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="date12" ColumnName="date12" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="industry_category_master">
+      <EntityTypeMapping TypeName="wrdModel1.industry_category_master">
+        <MappingFragment StoreEntitySet="industry_category_master">
+          <ScalarProperty Name="icm_id" ColumnName="icm_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="industry_status_master">
+      <EntityTypeMapping TypeName="wrdModel1.industry_status_master">
+        <MappingFragment StoreEntitySet="industry_status_master">
+          <ScalarProperty Name="ism_id" ColumnName="ism_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="industry_type_master">
+      <EntityTypeMapping TypeName="wrdModel1.industry_type_master">
+        <MappingFragment StoreEntitySet="industry_type_master">
+          <ScalarProperty Name="industry_type_id" ColumnName="industry_type_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kum_document_details">
+      <EntityTypeMapping TypeName="wrdModel1.kum_document_details">
+        <MappingFragment StoreEntitySet="kum_document_details">
+          <ScalarProperty Name="dd_id" ColumnName="dd_id" />
+          <ScalarProperty Name="kum_id" ColumnName="kum_id" />
+          <ScalarProperty Name="doc_type_id" ColumnName="doc_type_id" />
+          <ScalarProperty Name="original_filename" ColumnName="original_filename" />
+          <ScalarProperty Name="revised_filename" ColumnName="revised_filename" />
+          <ScalarProperty Name="updaated_date" ColumnName="updaated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="TRIAL012" ColumnName="TRIAL012" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kum_document_type_master">
+      <EntityTypeMapping TypeName="wrdModel1.kum_document_type_master">
+        <MappingFragment StoreEntitySet="kum_document_type_master">
+          <ScalarProperty Name="doc_type_id" ColumnName="doc_type_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="doc_category_id" ColumnName="doc_category_id" />
+          <ScalarProperty Name="max_size_limit" ColumnName="max_size_limit" />
+          <ScalarProperty Name="mandatory_col" ColumnName="mandatory_col" />
+          <ScalarProperty Name="TRIAL015" ColumnName="TRIAL015" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kum_land_ownership_details">
+      <EntityTypeMapping TypeName="wrdModel1.kum_land_ownership_details">
+        <MappingFragment StoreEntitySet="kum_land_ownership_details">
+          <ScalarProperty Name="ld_id" ColumnName="ld_id" />
+          <ScalarProperty Name="kum_id" ColumnName="kum_id" />
+          <ScalarProperty Name="landtype_id" ColumnName="landtype_id" />
+          <ScalarProperty Name="acre" ColumnName="acre" />
+          <ScalarProperty Name="gunta" ColumnName="gunta" />
+          <ScalarProperty Name="TRIAL015" ColumnName="TRIAL015" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kum_measures_details">
+      <EntityTypeMapping TypeName="wrdModel1.kum_measures_details">
+        <MappingFragment StoreEntitySet="kum_measures_details">
+          <ScalarProperty Name="md_id" ColumnName="md_id" />
+          <ScalarProperty Name="kum_id" ColumnName="kum_id" />
+          <ScalarProperty Name="technology_adapted" ColumnName="technology_adapted" />
+          <ScalarProperty Name="demand" ColumnName="demand" />
+          <ScalarProperty Name="savings" ColumnName="savings" />
+          <ScalarProperty Name="unit_id" ColumnName="unit_id" />
+          <ScalarProperty Name="measure_id" ColumnName="measure_id" />
+          <ScalarProperty Name="TRIAL015" ColumnName="TRIAL015" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kum_project_details">
+      <EntityTypeMapping TypeName="wrdModel1.kum_project_details">
+        <MappingFragment StoreEntitySet="kum_project_details">
+          <ScalarProperty Name="kum_id" ColumnName="kum_id" />
+          <ScalarProperty Name="icm_id" ColumnName="icm_id" />
+          <ScalarProperty Name="ism_id" ColumnName="ism_id" />
+          <ScalarProperty Name="dw_lat_d" ColumnName="dw_lat_d" />
+          <ScalarProperty Name="dw_lat_m" ColumnName="dw_lat_m" />
+          <ScalarProperty Name="dw_lat_s" ColumnName="dw_lat_s" />
+          <ScalarProperty Name="dw_long_d" ColumnName="dw_long_d" />
+          <ScalarProperty Name="dw_long_m" ColumnName="dw_long_m" />
+          <ScalarProperty Name="dw_long_s" ColumnName="dw_long_s" />
+          <ScalarProperty Name="dw_frl" ColumnName="dw_frl" />
+          <ScalarProperty Name="dw_rbl" ColumnName="dw_rbl" />
+          <ScalarProperty Name="basin_type_id" ColumnName="basin_type_id" />
+          <ScalarProperty Name="water_source_id" ColumnName="water_source_id" />
+          <ScalarProperty Name="wsa_id" ColumnName="wsa_id" />
+          <ScalarProperty Name="catchment_area" ColumnName="catchment_area" />
+          <ScalarProperty Name="req_per_day" ColumnName="req_per_day" />
+          <ScalarProperty Name="req_pd_unit_id" ColumnName="req_pd_unit_id" />
+          <ScalarProperty Name="no_months" ColumnName="no_months" />
+          <ScalarProperty Name="from_month_id" ColumnName="from_month_id" />
+          <ScalarProperty Name="to_month_id" ColumnName="to_month_id" />
+          <ScalarProperty Name="no_days" ColumnName="no_days" />
+          <ScalarProperty Name="from_day_month_id" ColumnName="from_day_month_id" />
+          <ScalarProperty Name="from_day_id" ColumnName="from_day_id" />
+          <ScalarProperty Name="to_day_month_id" ColumnName="to_day_month_id" />
+          <ScalarProperty Name="to_day_id" ColumnName="to_day_id" />
+          <ScalarProperty Name="req_yearly" ColumnName="req_yearly" />
+          <ScalarProperty Name="req_yearly_unit_id" ColumnName="req_yearly_unit_id" />
+          <ScalarProperty Name="no_days_power_generated" ColumnName="no_days_power_generated" />
+          <ScalarProperty Name="location_village_id" ColumnName="location_village_id" />
+          <ScalarProperty Name="lp_village_id" ColumnName="lp_village_id" />
+          <ScalarProperty Name="lp_lat_d" ColumnName="lp_lat_d" />
+          <ScalarProperty Name="lp_lat_m" ColumnName="lp_lat_m" />
+          <ScalarProperty Name="lp_lat_s" ColumnName="lp_lat_s" />
+          <ScalarProperty Name="lp_long_d" ColumnName="lp_long_d" />
+          <ScalarProperty Name="lp_long_m" ColumnName="lp_long_m" />
+          <ScalarProperty Name="lp_long_s" ColumnName="lp_long_s" />
+          <ScalarProperty Name="pipeline_proposed" ColumnName="pipeline_proposed" />
+          <ScalarProperty Name="head_available" ColumnName="head_available" />
+          <ScalarProperty Name="water_avail_dpr" ColumnName="water_avail_dpr" />
+          <ScalarProperty Name="water_avail_unit_id" ColumnName="water_avail_unit_id" />
+          <ScalarProperty Name="water_avail_method_dpr" ColumnName="water_avail_method_dpr" />
+          <ScalarProperty Name="irrigation_effect" ColumnName="irrigation_effect" />
+          <ScalarProperty Name="private_public_effect" ColumnName="private_public_effect" />
+          <ScalarProperty Name="remedial_measures" ColumnName="remedial_measures" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="river_name" ColumnName="river_name" />
+          <ScalarProperty Name="dmm_id" ColumnName="dmm_id" />
+          <ScalarProperty Name="river_basin_id" ColumnName="river_basin_id" />
+          <ScalarProperty Name="rsm_id" ColumnName="rsm_id" />
+          <ScalarProperty Name="req_period_id" ColumnName="req_period_id" />
+          <ScalarProperty Name="payment_status" ColumnName="payment_status" />
+          <ScalarProperty Name="app_no" ColumnName="app_no" />
+          <ScalarProperty Name="payment_status_renwal" ColumnName="payment_status_renwal" />
+          <ScalarProperty Name="allocation_already_made" ColumnName="allocation_already_made" />
+          <ScalarProperty Name="TRIAL015" ColumnName="TRIAL015" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kum_storage_details">
+      <EntityTypeMapping TypeName="wrdModel1.kum_storage_details">
+        <MappingFragment StoreEntitySet="kum_storage_details">
+          <ScalarProperty Name="sd_id" ColumnName="sd_id" />
+          <ScalarProperty Name="kum_id" ColumnName="kum_id" />
+          <ScalarProperty Name="stm_id" ColumnName="stm_id" />
+          <ScalarProperty Name="shape_id" ColumnName="shape_id" />
+          <ScalarProperty Name="length" ColumnName="length" />
+          <ScalarProperty Name="breadth" ColumnName="breadth" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="radius" ColumnName="radius" />
+          <ScalarProperty Name="capacity" ColumnName="capacity" />
+          <ScalarProperty Name="TRIAL015" ColumnName="TRIAL015" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="land_ownership_details">
+      <EntityTypeMapping TypeName="wrdModel1.land_ownership_details">
+        <MappingFragment StoreEntitySet="land_ownership_details">
+          <ScalarProperty Name="ld_id" ColumnName="ld_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="landtype_id" ColumnName="landtype_id" />
+          <ScalarProperty Name="acre" ColumnName="acre" />
+          <ScalarProperty Name="gunta" ColumnName="gunta" />
+          <ScalarProperty Name="TRIAL015" ColumnName="TRIAL015" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="landtype_master">
+      <EntityTypeMapping TypeName="wrdModel1.landtype_master">
+        <MappingFragment StoreEntitySet="landtype_master">
+          <ScalarProperty Name="landtype_id" ColumnName="landtype_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="login_statistics">
+      <EntityTypeMapping TypeName="wrdModel1.login_statistics">
+        <MappingFragment StoreEntitySet="login_statistics">
+          <ScalarProperty Name="loginid" ColumnName="loginid" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="logout" ColumnName="logout" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="measure_master">
+      <EntityTypeMapping TypeName="wrdModel1.measure_master">
+        <MappingFragment StoreEntitySet="measure_master">
+          <ScalarProperty Name="measure_id" ColumnName="measure_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="measures_details">
+      <EntityTypeMapping TypeName="wrdModel1.measures_details">
+        <MappingFragment StoreEntitySet="measures_details">
+          <ScalarProperty Name="md_id" ColumnName="md_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="technology_adapted" ColumnName="technology_adapted" />
+          <ScalarProperty Name="demand" ColumnName="demand" />
+          <ScalarProperty Name="savings" ColumnName="savings" />
+          <ScalarProperty Name="unit_id" ColumnName="unit_id" />
+          <ScalarProperty Name="measure_id" ColumnName="measure_id" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menu_details">
+      <EntityTypeMapping TypeName="wrdModel1.menu_details">
+        <MappingFragment StoreEntitySet="menu_details">
+          <ScalarProperty Name="menu_id" ColumnName="menu_id" />
+          <ScalarProperty Name="menu_item_id" ColumnName="menu_item_id" />
+          <ScalarProperty Name="menu_desc" ColumnName="menu_desc" />
+          <ScalarProperty Name="menu_url" ColumnName="menu_url" />
+          <ScalarProperty Name="is_direct_menu_link" ColumnName="is_direct_menu_link" />
+          <ScalarProperty Name="is_menu_header" ColumnName="is_menu_header" />
+          <ScalarProperty Name="menu_order" ColumnName="menu_order" />
+          <ScalarProperty Name="menu_style_class_name" ColumnName="menu_style_class_name" />
+          <ScalarProperty Name="comma_sep_child_urls" ColumnName="comma_sep_child_urls" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menu_role_assoc">
+      <EntityTypeMapping TypeName="wrdModel1.menu_role_assoc">
+        <MappingFragment StoreEntitySet="menu_role_assoc">
+          <ScalarProperty Name="menu_id" ColumnName="menu_id" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menu_submenu_assoc">
+      <EntityTypeMapping TypeName="wrdModel1.menu_submenu_assoc">
+        <MappingFragment StoreEntitySet="menu_submenu_assoc">
+          <ScalarProperty Name="menu_id" ColumnName="menu_id" />
+          <ScalarProperty Name="sub_menu_id" ColumnName="sub_menu_id" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="month_master">
+      <EntityTypeMapping TypeName="wrdModel1.month_master">
+        <MappingFragment StoreEntitySet="month_master">
+          <ScalarProperty Name="month_id" ColumnName="month_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL019" ColumnName="TRIAL019" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="office_master">
+      <EntityTypeMapping TypeName="wrdModel1.office_master">
+        <MappingFragment StoreEntitySet="office_master">
+          <ScalarProperty Name="office_master_id" ColumnName="office_master_id" />
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="office_type_id" ColumnName="office_type_id" />
+          <ScalarProperty Name="office_name" ColumnName="office_name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="landline_no" ColumnName="landline_no" />
+          <ScalarProperty Name="mobile_no" ColumnName="mobile_no" />
+          <ScalarProperty Name="fax_no" ColumnName="fax_no" />
+          <ScalarProperty Name="email_id" ColumnName="email_id" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="multiple" ColumnName="multiple" />
+          <ScalarProperty Name="TRIAL022" ColumnName="TRIAL022" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="office_recommendation_upload">
+      <EntityTypeMapping TypeName="wrdModel1.office_recommendation_upload">
+        <MappingFragment StoreEntitySet="office_recommendation_upload">
+          <ScalarProperty Name="oru_id" ColumnName="oru_id" />
+          <ScalarProperty Name="office_id" ColumnName="office_id" />
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="recommendation" ColumnName="recommendation" />
+          <ScalarProperty Name="original_filename" ColumnName="original_filename" />
+          <ScalarProperty Name="revised_filename" ColumnName="revised_filename" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="project_status_id" ColumnName="project_status_id" />
+          <ScalarProperty Name="TRIAL022" ColumnName="TRIAL022" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="office_type_master">
+      <EntityTypeMapping TypeName="wrdModel1.office_type_master">
+        <MappingFragment StoreEntitySet="office_type_master">
+          <ScalarProperty Name="office_type_id" ColumnName="office_type_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL022" ColumnName="TRIAL022" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="organization_master">
+      <EntityTypeMapping TypeName="wrdModel1.organization_master">
+        <MappingFragment StoreEntitySet="organization_master">
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL022" ColumnName="TRIAL022" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payment_details">
+      <EntityTypeMapping TypeName="wrdModel1.payment_details">
+        <MappingFragment StoreEntitySet="payment_details">
+          <ScalarProperty Name="dept_ref_no" ColumnName="dept_ref_no" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="agency_code" ColumnName="agency_code" />
+          <ScalarProperty Name="integration_code" ColumnName="integration_code" />
+          <ScalarProperty Name="uri_no" ColumnName="uri_no" />
+          <ScalarProperty Name="chln_date" ColumnName="chln_date" />
+          <ScalarProperty Name="dept_code" ColumnName="dept_code" />
+          <ScalarProperty Name="ddo_code" ColumnName="ddo_code" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="prpsname" ColumnName="prpsname" />
+          <ScalarProperty Name="rmtrname" ColumnName="rmtrname" />
+          <ScalarProperty Name="trsrycode" ColumnName="trsrycode" />
+          <ScalarProperty Name="TRIAL025" ColumnName="TRIAL025" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payment_status">
+      <EntityTypeMapping TypeName="wrdModel1.payment_status">
+        <MappingFragment StoreEntitySet="payment_status">
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="dept_ref_num" ColumnName="dept_ref_num" />
+          <ScalarProperty Name="bank_ref_num" ColumnName="bank_ref_num" />
+          <ScalarProperty Name="pymnt_status" ColumnName="pymnt_status" />
+          <ScalarProperty Name="pymnt_mode" ColumnName="pymnt_mode" />
+          <ScalarProperty Name="bank_name" ColumnName="bank_name" />
+          <ScalarProperty Name="paid_amount" ColumnName="paid_amount" />
+          <ScalarProperty Name="current_time_stamp" ColumnName="current_time_stamp" />
+          <ScalarProperty Name="status_code" ColumnName="status_code" />
+          <ScalarProperty Name="status_desc" ColumnName="status_desc" />
+          <ScalarProperty Name="TRIAL025" ColumnName="TRIAL025" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="project_details">
+      <EntityTypeMapping TypeName="wrdModel1.project_details">
+        <MappingFragment StoreEntitySet="project_details">
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="icm_id" ColumnName="icm_id" />
+          <ScalarProperty Name="ism_id" ColumnName="ism_id" />
+          <ScalarProperty Name="dw_lat_d" ColumnName="dw_lat_d" />
+          <ScalarProperty Name="dw_lat_m" ColumnName="dw_lat_m" />
+          <ScalarProperty Name="dw_lat_s" ColumnName="dw_lat_s" />
+          <ScalarProperty Name="dw_long_d" ColumnName="dw_long_d" />
+          <ScalarProperty Name="dw_long_m" ColumnName="dw_long_m" />
+          <ScalarProperty Name="dw_long_s" ColumnName="dw_long_s" />
+          <ScalarProperty Name="dw_frl" ColumnName="dw_frl" />
+          <ScalarProperty Name="dw_rbl" ColumnName="dw_rbl" />
+          <ScalarProperty Name="basin_type_id" ColumnName="basin_type_id" />
+          <ScalarProperty Name="water_source_id" ColumnName="water_source_id" />
+          <ScalarProperty Name="wsa_id" ColumnName="wsa_id" />
+          <ScalarProperty Name="catchment_area" ColumnName="catchment_area" />
+          <ScalarProperty Name="req_per_day" ColumnName="req_per_day" />
+          <ScalarProperty Name="req_pd_unit_id" ColumnName="req_pd_unit_id" />
+          <ScalarProperty Name="no_months" ColumnName="no_months" />
+          <ScalarProperty Name="from_month_id" ColumnName="from_month_id" />
+          <ScalarProperty Name="to_month_id" ColumnName="to_month_id" />
+          <ScalarProperty Name="no_days" ColumnName="no_days" />
+          <ScalarProperty Name="from_day_month_id" ColumnName="from_day_month_id" />
+          <ScalarProperty Name="from_day_id" ColumnName="from_day_id" />
+          <ScalarProperty Name="to_day_month_id" ColumnName="to_day_month_id" />
+          <ScalarProperty Name="to_day_id" ColumnName="to_day_id" />
+          <ScalarProperty Name="req_yearly" ColumnName="req_yearly" />
+          <ScalarProperty Name="req_yearly_unit_id" ColumnName="req_yearly_unit_id" />
+          <ScalarProperty Name="no_days_power_generated" ColumnName="no_days_power_generated" />
+          <ScalarProperty Name="location_village_id" ColumnName="location_village_id" />
+          <ScalarProperty Name="lp_village_id" ColumnName="lp_village_id" />
+          <ScalarProperty Name="lp_lat_d" ColumnName="lp_lat_d" />
+          <ScalarProperty Name="lp_lat_m" ColumnName="lp_lat_m" />
+          <ScalarProperty Name="lp_lat_s" ColumnName="lp_lat_s" />
+          <ScalarProperty Name="lp_long_d" ColumnName="lp_long_d" />
+          <ScalarProperty Name="lp_long_m" ColumnName="lp_long_m" />
+          <ScalarProperty Name="lp_long_s" ColumnName="lp_long_s" />
+          <ScalarProperty Name="pipeline_proposed" ColumnName="pipeline_proposed" />
+          <ScalarProperty Name="head_available" ColumnName="head_available" />
+          <ScalarProperty Name="water_avail_dpr" ColumnName="water_avail_dpr" />
+          <ScalarProperty Name="water_avail_unit_id" ColumnName="water_avail_unit_id" />
+          <ScalarProperty Name="water_avail_method_dpr" ColumnName="water_avail_method_dpr" />
+          <ScalarProperty Name="irrigation_effect" ColumnName="irrigation_effect" />
+          <ScalarProperty Name="private_public_effect" ColumnName="private_public_effect" />
+          <ScalarProperty Name="remedial_measures" ColumnName="remedial_measures" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="river_name" ColumnName="river_name" />
+          <ScalarProperty Name="dmm_id" ColumnName="dmm_id" />
+          <ScalarProperty Name="river_basin_id" ColumnName="river_basin_id" />
+          <ScalarProperty Name="rsm_id" ColumnName="rsm_id" />
+          <ScalarProperty Name="req_period_id" ColumnName="req_period_id" />
+          <ScalarProperty Name="minihydro_capacity" ColumnName="minihydro_capacity" />
+          <ScalarProperty Name="minihydro_capacity_unit" ColumnName="minihydro_capacity_unit" />
+          <ScalarProperty Name="total_turbines" ColumnName="total_turbines" />
+          <ScalarProperty Name="per_turbine_min_unit" ColumnName="per_turbine_min_unit" />
+          <ScalarProperty Name="per_turbine_max_unit" ColumnName="per_turbine_max_unit" />
+          <ScalarProperty Name="per_turbine_min" ColumnName="per_turbine_min" />
+          <ScalarProperty Name="per_turbine_max" ColumnName="per_turbine_max" />
+          <ScalarProperty Name="allocation_already_made" ColumnName="allocation_already_made" />
+          <ScalarProperty Name="processing_fee" ColumnName="processing_fee" />
+          <ScalarProperty Name="water_use_charges" ColumnName="water_use_charges" />
+          <ScalarProperty Name="challen_date" ColumnName="challen_date" />
+          <ScalarProperty Name="challen_number" ColumnName="challen_number" />
+          <ScalarProperty Name="TRIAL025" ColumnName="TRIAL025" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="project_next_status">
+      <EntityTypeMapping TypeName="wrdModel1.project_next_status">
+        <MappingFragment StoreEntitySet="project_next_status">
+          <ScalarProperty Name="app_current_status_id" ColumnName="app_current_status_id" />
+          <ScalarProperty Name="app_next_status_id" ColumnName="app_next_status_id" />
+          <ScalarProperty Name="office_master_id" ColumnName="office_master_id" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="prev_role_id" ColumnName="prev_role_id" />
+          <ScalarProperty Name="to_office_master_id" ColumnName="to_office_master_id" />
+          <ScalarProperty Name="to_role_id" ColumnName="to_role_id" />
+          <ScalarProperty Name="prev_office_master_id" ColumnName="prev_office_master_id" />
+          <ScalarProperty Name="days_limit" ColumnName="days_limit" />
+          <ScalarProperty Name="pns_id" ColumnName="pns_id" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="TRIAL025" ColumnName="TRIAL025" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="project_status_master">
+      <EntityTypeMapping TypeName="wrdModel1.project_status_master">
+        <MappingFragment StoreEntitySet="project_status_master">
+          <ScalarProperty Name="proj_status_id" ColumnName="proj_status_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="display_status" ColumnName="display_status" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="owner_role_id" ColumnName="owner_role_id" />
+          <ScalarProperty Name="order_by" ColumnName="order_by" />
+          <ScalarProperty Name="description_next_status" ColumnName="description_next_status" />
+          <ScalarProperty Name="TRIAL028" ColumnName="TRIAL028" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="proposed_industry_status">
+      <EntityTypeMapping TypeName="wrdModel1.proposed_industry_status">
+        <MappingFragment StoreEntitySet="proposed_industry_status">
+          <ScalarProperty Name="pis_id" ColumnName="pis_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL028" ColumnName="TRIAL028" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="recommendation_status_master">
+      <EntityTypeMapping TypeName="wrdModel1.recommendation_status_master">
+        <MappingFragment StoreEntitySet="recommendation_status_master">
+          <ScalarProperty Name="rs_id" ColumnName="rs_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requirement_period_master">
+      <EntityTypeMapping TypeName="wrdModel1.requirement_period_master">
+        <MappingFragment StoreEntitySet="requirement_period_master">
+          <ScalarProperty Name="req_period_id" ColumnName="req_period_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="river_basin_master">
+      <EntityTypeMapping TypeName="wrdModel1.river_basin_master">
+        <MappingFragment StoreEntitySet="river_basin_master">
+          <ScalarProperty Name="river_basin_id" ColumnName="river_basin_id" />
+          <ScalarProperty Name="river_basin" ColumnName="river_basin" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="river_subbasin_master">
+      <EntityTypeMapping TypeName="wrdModel1.river_subbasin_master">
+        <MappingFragment StoreEntitySet="river_subbasin_master">
+          <ScalarProperty Name="rsm_id" ColumnName="rsm_id" />
+          <ScalarProperty Name="river_basin_id" ColumnName="river_basin_id" />
+          <ScalarProperty Name="river_subbasin" ColumnName="river_subbasin" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="role_master">
+      <EntityTypeMapping TypeName="wrdModel1.role_master">
+        <MappingFragment StoreEntitySet="role_master">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shape_master">
+      <EntityTypeMapping TypeName="wrdModel1.shape_master">
+        <MappingFragment StoreEntitySet="shape_master">
+          <ScalarProperty Name="shape_id" ColumnName="shape_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="site_inspection_allocation">
+      <EntityTypeMapping TypeName="wrdModel1.site_inspection_allocation">
+        <MappingFragment StoreEntitySet="site_inspection_allocation">
+          <ScalarProperty Name="sia_id" ColumnName="sia_id" />
+          <ScalarProperty Name="si_id" ColumnName="si_id" />
+          <ScalarProperty Name="overall_allocation" ColumnName="overall_allocation" />
+          <ScalarProperty Name="allocation_available" ColumnName="allocation_available" />
+          <ScalarProperty Name="permission_given" ColumnName="permission_given" />
+          <ScalarProperty Name="balance_available" ColumnName="balance_available" />
+          <ScalarProperty Name="industry_requirement" ColumnName="industry_requirement" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="allocation_avail_unit_id" ColumnName="allocation_avail_unit_id" />
+          <ScalarProperty Name="permission_given_unit_id" ColumnName="permission_given_unit_id" />
+          <ScalarProperty Name="balance_available_unit_id" ColumnName="balance_available_unit_id" />
+          <ScalarProperty Name="industry_req_unit_id" ColumnName="industry_req_unit_id" />
+          <ScalarProperty Name="overall_alloc_unit_id" ColumnName="overall_alloc_unit_id" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="site_inspection_conditions">
+      <EntityTypeMapping TypeName="wrdModel1.site_inspection_conditions">
+        <MappingFragment StoreEntitySet="site_inspection_conditions">
+          <ScalarProperty Name="si_id" ColumnName="si_id" />
+          <ScalarProperty Name="condition" ColumnName="condition" />
+          <ScalarProperty Name="record_date" ColumnName="record_date" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="sic_id" ColumnName="sic_id" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="site_inspection_details">
+      <EntityTypeMapping TypeName="wrdModel1.site_inspection_details">
+        <MappingFragment StoreEntitySet="site_inspection_details">
+          <ScalarProperty Name="si_id" ColumnName="si_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="overall_allocation" ColumnName="overall_allocation" />
+          <ScalarProperty Name="al_overall_allocation_unit" ColumnName="al_overall_allocation_unit" />
+          <ScalarProperty Name="al_allocation_available" ColumnName="al_allocation_available" />
+          <ScalarProperty Name="al_allocation_available_unit" ColumnName="al_allocation_available_unit" />
+          <ScalarProperty Name="al_permission_given" ColumnName="al_permission_given" />
+          <ScalarProperty Name="al_permission_given_unit" ColumnName="al_permission_given_unit" />
+          <ScalarProperty Name="al_balance_available" ColumnName="al_balance_available" />
+          <ScalarProperty Name="al_balance_available_unit" ColumnName="al_balance_available_unit" />
+          <ScalarProperty Name="al_requirement" ColumnName="al_requirement" />
+          <ScalarProperty Name="al_requirement_unit" ColumnName="al_requirement_unit" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="aow_entrypoint" ColumnName="aow_entrypoint" />
+          <ScalarProperty Name="aow_entrypoint_unit" ColumnName="aow_entrypoint_unit" />
+          <ScalarProperty Name="aoq_quantum_utilized" ColumnName="aoq_quantum_utilized" />
+          <ScalarProperty Name="aow_quantum_utilized_unit" ColumnName="aow_quantum_utilized_unit" />
+          <ScalarProperty Name="aow_quantum_utilized_at_exit" ColumnName="aow_quantum_utilized_at_exit" />
+          <ScalarProperty Name="aow_quantum_utilized_exit_unit" ColumnName="aow_quantum_utilized_exit_unit" />
+          <ScalarProperty Name="methodology" ColumnName="methodology" />
+          <ScalarProperty Name="man_actual_requirement" ColumnName="man_actual_requirement" />
+          <ScalarProperty Name="man_actual_requirement_unit" ColumnName="man_actual_requirement_unit" />
+          <ScalarProperty Name="man_savings" ColumnName="man_savings" />
+          <ScalarProperty Name="man_savings_unit" ColumnName="man_savings_unit" />
+          <ScalarProperty Name="man_revised_requirement" ColumnName="man_revised_requirement" />
+          <ScalarProperty Name="man_revised_requirement_unit" ColumnName="man_revised_requirement_unit" />
+          <ScalarProperty Name="clean_actual_requirement" ColumnName="clean_actual_requirement" />
+          <ScalarProperty Name="clean_actual_req_unit" ColumnName="clean_actual_req_unit" />
+          <ScalarProperty Name="clean_savings" ColumnName="clean_savings" />
+          <ScalarProperty Name="clean_savings_unit" ColumnName="clean_savings_unit" />
+          <ScalarProperty Name="clean_revised_requirement" ColumnName="clean_revised_requirement" />
+          <ScalarProperty Name="clean_revised_req_unit" ColumnName="clean_revised_req_unit" />
+          <ScalarProperty Name="cool_actual_requirement" ColumnName="cool_actual_requirement" />
+          <ScalarProperty Name="cool_actual_req_unit" ColumnName="cool_actual_req_unit" />
+          <ScalarProperty Name="cool_savings" ColumnName="cool_savings" />
+          <ScalarProperty Name="cool_savings_unit" ColumnName="cool_savings_unit" />
+          <ScalarProperty Name="cool_revised_requirement" ColumnName="cool_revised_requirement" />
+          <ScalarProperty Name="cool_revised_req_unit" ColumnName="cool_revised_req_unit" />
+          <ScalarProperty Name="dom_purp_actual_requirement" ColumnName="dom_purp_actual_requirement" />
+          <ScalarProperty Name="dom_purp_actual_req_unit" ColumnName="dom_purp_actual_req_unit" />
+          <ScalarProperty Name="dom_purp_savings" ColumnName="dom_purp_savings" />
+          <ScalarProperty Name="dom_purp_savings_unit" ColumnName="dom_purp_savings_unit" />
+          <ScalarProperty Name="dom_purp_revised_requirement" ColumnName="dom_purp_revised_requirement" />
+          <ScalarProperty Name="dom_purp_revised_req_unit" ColumnName="dom_purp_revised_req_unit" />
+          <ScalarProperty Name="util_sep_actual_requirement" ColumnName="util_sep_actual_requirement" />
+          <ScalarProperty Name="util_sep_actual_req_unit" ColumnName="util_sep_actual_req_unit" />
+          <ScalarProperty Name="util_sep_savings" ColumnName="util_sep_savings" />
+          <ScalarProperty Name="util_sep_savings_unit" ColumnName="util_sep_savings_unit" />
+          <ScalarProperty Name="util_sep_revised_requirement" ColumnName="util_sep_revised_requirement" />
+          <ScalarProperty Name="util_sep_revised_req_unit" ColumnName="util_sep_revised_req_unit" />
+          <ScalarProperty Name="util_int_actual_requirement" ColumnName="util_int_actual_requirement" />
+          <ScalarProperty Name="util_int_actual_req_unit" ColumnName="util_int_actual_req_unit" />
+          <ScalarProperty Name="util_int_savings" ColumnName="util_int_savings" />
+          <ScalarProperty Name="util_int_savings_unit" ColumnName="util_int_savings_unit" />
+          <ScalarProperty Name="util_int_revised_requirement" ColumnName="util_int_revised_requirement" />
+          <ScalarProperty Name="util_int_revised_req_unit" ColumnName="util_int_revised_req_unit" />
+          <ScalarProperty Name="conjunctive_actual_requirement" ColumnName="conjunctive_actual_requirement" />
+          <ScalarProperty Name="conjunctive_actual_req_unit" ColumnName="conjunctive_actual_req_unit" />
+          <ScalarProperty Name="conjunctive_savings" ColumnName="conjunctive_savings" />
+          <ScalarProperty Name="conjunctive_savings_unit" ColumnName="conjunctive_savings_unit" />
+          <ScalarProperty Name="conjunctive_revised_requirement" ColumnName="conjunctive_revised_requirement" />
+          <ScalarProperty Name="conjunctive_revised_req_unit" ColumnName="conjunctive_revised_req_unit" />
+          <ScalarProperty Name="recycle_actual_requirement" ColumnName="recycle_actual_requirement" />
+          <ScalarProperty Name="recycle_actual_req_unit" ColumnName="recycle_actual_req_unit" />
+          <ScalarProperty Name="recycle_savings" ColumnName="recycle_savings" />
+          <ScalarProperty Name="recycle_savings_unit" ColumnName="recycle_savings_unit" />
+          <ScalarProperty Name="recycle_revised_requirement" ColumnName="recycle_revised_requirement" />
+          <ScalarProperty Name="recycle_revised_req_unit" ColumnName="recycle_revised_req_unit" />
+          <ScalarProperty Name="treated_actual_requirement" ColumnName="treated_actual_requirement" />
+          <ScalarProperty Name="treated_actual_req_unit" ColumnName="treated_actual_req_unit" />
+          <ScalarProperty Name="treated_savings" ColumnName="treated_savings" />
+          <ScalarProperty Name="treated_savings_unit" ColumnName="treated_savings_unit" />
+          <ScalarProperty Name="treated_revised_requirement" ColumnName="treated_revised_requirement" />
+          <ScalarProperty Name="treated_revised_req_unit" ColumnName="treated_revised_req_unit" />
+          <ScalarProperty Name="rwh_actual_requirement" ColumnName="rwh_actual_requirement" />
+          <ScalarProperty Name="rwh_actual_req_unit" ColumnName="rwh_actual_req_unit" />
+          <ScalarProperty Name="rwh_savings" ColumnName="rwh_savings" />
+          <ScalarProperty Name="rwh_savings_unit" ColumnName="rwh_savings_unit" />
+          <ScalarProperty Name="rwh_revised_requirement" ColumnName="rwh_revised_requirement" />
+          <ScalarProperty Name="rwh_revised_req_unit" ColumnName="rwh_revised_req_unit" />
+          <ScalarProperty Name="op_irrigation_way" ColumnName="op_irrigation_way" />
+          <ScalarProperty Name="op_effect" ColumnName="op_effect" />
+          <ScalarProperty Name="op_effect_note" ColumnName="op_effect_note" />
+          <ScalarProperty Name="op_pollution" ColumnName="op_pollution" />
+          <ScalarProperty Name="op_pollution_note" ColumnName="op_pollution_note" />
+          <ScalarProperty Name="op_avoid_provision" ColumnName="op_avoid_provision" />
+          <ScalarProperty Name="op_provosion_acceptable" ColumnName="op_provosion_acceptable" />
+          <ScalarProperty Name="op_provosion_acceptable_note" ColumnName="op_provosion_acceptable_note" />
+          <ScalarProperty Name="op_whether_accepted" ColumnName="op_whether_accepted" />
+          <ScalarProperty Name="op_whether_accepted_note" ColumnName="op_whether_accepted_note" />
+          <ScalarProperty Name="pis_id" ColumnName="pis_id" />
+          <ScalarProperty Name="svg_by_seepage" ColumnName="svg_by_seepage" />
+          <ScalarProperty Name="svg_by_seepage_unit" ColumnName="svg_by_seepage_unit" />
+          <ScalarProperty Name="svg_by_savings" ColumnName="svg_by_savings" />
+          <ScalarProperty Name="svg_by_savings_unit" ColumnName="svg_by_savings_unit" />
+          <ScalarProperty Name="appraisal_location" ColumnName="appraisal_location" />
+          <ScalarProperty Name="appr_water_availability" ColumnName="appr_water_availability" />
+          <ScalarProperty Name="appr_water_availability_unit" ColumnName="appr_water_availability_unit" />
+          <ScalarProperty Name="appr_ar_id" ColumnName="appr_ar_id" />
+          <ScalarProperty Name="wrdo_scrutiny" ColumnName="wrdo_scrutiny" />
+          <ScalarProperty Name="wrdo_interstate_clearance" ColumnName="wrdo_interstate_clearance" />
+          <ScalarProperty Name="wrdo_committee_clearance" ColumnName="wrdo_committee_clearance" />
+          <ScalarProperty Name="wrdo_final_recommendation" ColumnName="wrdo_final_recommendation" />
+          <ScalarProperty Name="original_filename" ColumnName="original_filename" />
+          <ScalarProperty Name="revised_filename" ColumnName="revised_filename" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="inspection_from_date" ColumnName="inspection_from_date" />
+          <ScalarProperty Name="inspection_to_date" ColumnName="inspection_to_date" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="TRIAL032" ColumnName="TRIAL032" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="site_inspection_report">
+      <EntityTypeMapping TypeName="wrdModel1.site_inspection_report">
+        <MappingFragment StoreEntitySet="site_inspection_report">
+          <ScalarProperty Name="industry_type_id" ColumnName="industry_type_id" />
+          <ScalarProperty Name="village_id" ColumnName="village_id" />
+          <ScalarProperty Name="hyd_lat_d" ColumnName="hyd_lat_d" />
+          <ScalarProperty Name="hyd_lat_m" ColumnName="hyd_lat_m" />
+          <ScalarProperty Name="hyd_lat_s" ColumnName="hyd_lat_s" />
+          <ScalarProperty Name="hyd_long_d" ColumnName="hyd_long_d" />
+          <ScalarProperty Name="hyd_long_m" ColumnName="hyd_long_m" />
+          <ScalarProperty Name="hyd_long_s" ColumnName="hyd_long_s" />
+          <ScalarProperty Name="ism_id" ColumnName="ism_id" />
+          <ScalarProperty Name="basin_type_id" ColumnName="basin_type_id" />
+          <ScalarProperty Name="river_basin_id" ColumnName="river_basin_id" />
+          <ScalarProperty Name="rsm_id" ColumnName="rsm_id" />
+          <ScalarProperty Name="water_source_id" ColumnName="water_source_id" />
+          <ScalarProperty Name="wsa_id" ColumnName="wsa_id" />
+          <ScalarProperty Name="status_proposed_id" ColumnName="status_proposed_id" />
+          <ScalarProperty Name="place_loc_hydroproject" ColumnName="place_loc_hydroproject" />
+          <ScalarProperty Name="hyd_dw_lat_d" ColumnName="hyd_dw_lat_d" />
+          <ScalarProperty Name="hyd_dw_lat_m" ColumnName="hyd_dw_lat_m" />
+          <ScalarProperty Name="hyd_dw_lat_s" ColumnName="hyd_dw_lat_s" />
+          <ScalarProperty Name="hyd_dw_long_d" ColumnName="hyd_dw_long_d" />
+          <ScalarProperty Name="hyd_dw_long_m" ColumnName="hyd_dw_long_m" />
+          <ScalarProperty Name="hyd_dw_long_s" ColumnName="hyd_dw_long_s" />
+          <ScalarProperty Name="hyd_minihydro_capacity" ColumnName="hyd_minihydro_capacity" />
+          <ScalarProperty Name="hyd_frl" ColumnName="hyd_frl" />
+          <ScalarProperty Name="hyd_mwl" ColumnName="hyd_mwl" />
+          <ScalarProperty Name="hyd_hfl" ColumnName="hyd_hfl" />
+          <ScalarProperty Name="hyd_rbl" ColumnName="hyd_rbl" />
+          <ScalarProperty Name="hyd_requirement" ColumnName="hyd_requirement" />
+          <ScalarProperty Name="hyd_no_days_power_generated" ColumnName="hyd_no_days_power_generated" />
+          <ScalarProperty Name="hyd_head_available" ColumnName="hyd_head_available" />
+          <ScalarProperty Name="hyd_catchment_area" ColumnName="hyd_catchment_area" />
+          <ScalarProperty Name="hyd_water_avail_dpr" ColumnName="hyd_water_avail_dpr" />
+          <ScalarProperty Name="hyd_access_spot_nhsh" ColumnName="hyd_access_spot_nhsh" />
+          <ScalarProperty Name="hyd_effect_water_supply" ColumnName="hyd_effect_water_supply" />
+          <ScalarProperty Name="hyd_effect_on_irrigation" ColumnName="hyd_effect_on_irrigation" />
+          <ScalarProperty Name="hyd_effect_public_structure" ColumnName="hyd_effect_public_structure" />
+          <ScalarProperty Name="hyd_rr_involvement" ColumnName="hyd_rr_involvement" />
+          <ScalarProperty Name="hyd_submergence_area_details" ColumnName="hyd_submergence_area_details" />
+          <ScalarProperty Name="hyd_relevant_info" ColumnName="hyd_relevant_info" />
+          <ScalarProperty Name="si_id" ColumnName="si_id" />
+          <ScalarProperty Name="ind_req_per_day" ColumnName="ind_req_per_day" />
+          <ScalarProperty Name="ind_req_pd_unit" ColumnName="ind_req_pd_unit" />
+          <ScalarProperty Name="ind_req_period_id" ColumnName="ind_req_period_id" />
+          <ScalarProperty Name="ind_no_months" ColumnName="ind_no_months" />
+          <ScalarProperty Name="ind_from_month_id" ColumnName="ind_from_month_id" />
+          <ScalarProperty Name="ind_to_month_id" ColumnName="ind_to_month_id" />
+          <ScalarProperty Name="ind_no_days" ColumnName="ind_no_days" />
+          <ScalarProperty Name="ind_from_day_month_id" ColumnName="ind_from_day_month_id" />
+          <ScalarProperty Name="ind_from_day_id" ColumnName="ind_from_day_id" />
+          <ScalarProperty Name="ind_to_day_month_id" ColumnName="ind_to_day_month_id" />
+          <ScalarProperty Name="ind_to_day_id" ColumnName="ind_to_day_id" />
+          <ScalarProperty Name="ind_req_yearly" ColumnName="ind_req_yearly" />
+          <ScalarProperty Name="dmm_id" ColumnName="dmm_id" />
+          <ScalarProperty Name="ind_storage_pipeline_proposed" ColumnName="ind_storage_pipeline_proposed" />
+          <ScalarProperty Name="ind_water_avail_mdce_wrdo" ColumnName="ind_water_avail_mdce_wrdo" />
+          <ScalarProperty Name="ind_water_avail_method_cewrdo" ColumnName="ind_water_avail_method_cewrdo" />
+          <ScalarProperty Name="ind_for_manufacture" ColumnName="ind_for_manufacture" />
+          <ScalarProperty Name="ind_for_cleaning" ColumnName="ind_for_cleaning" />
+          <ScalarProperty Name="ind_for_cooling" ColumnName="ind_for_cooling" />
+          <ScalarProperty Name="ind_for_domestic" ColumnName="ind_for_domestic" />
+          <ScalarProperty Name="ind_utilise_seperate" ColumnName="ind_utilise_seperate" />
+          <ScalarProperty Name="ind_utilise_series" ColumnName="ind_utilise_series" />
+          <ScalarProperty Name="ind_conjuctive_use" ColumnName="ind_conjuctive_use" />
+          <ScalarProperty Name="ind_recycle_water" ColumnName="ind_recycle_water" />
+          <ScalarProperty Name="ind_waste_water" ColumnName="ind_waste_water" />
+          <ScalarProperty Name="ind_rain_harvest" ColumnName="ind_rain_harvest" />
+          <ScalarProperty Name="ind_irrigation_way" ColumnName="ind_irrigation_way" />
+          <ScalarProperty Name="ind_affect_drinking_water" ColumnName="ind_affect_drinking_water" />
+          <ScalarProperty Name="ind_pollute_sorrounding" ColumnName="ind_pollute_sorrounding" />
+          <ScalarProperty Name="ind_provision_effect_irrigation" ColumnName="ind_provision_effect_irrigation" />
+          <ScalarProperty Name="ind_remedial_measures" ColumnName="ind_remedial_measures" />
+          <ScalarProperty Name="ind_whether_acceptable" ColumnName="ind_whether_acceptable" />
+          <ScalarProperty Name="ind_by_seepage" ColumnName="ind_by_seepage" />
+          <ScalarProperty Name="ind_savings_atchkat" ColumnName="ind_savings_atchkat" />
+          <ScalarProperty Name="ind_location_required" ColumnName="ind_location_required" />
+          <ScalarProperty Name="ind_moef" ColumnName="ind_moef" />
+          <ScalarProperty Name="ind_kspcb" ColumnName="ind_kspcb" />
+          <ScalarProperty Name="ind_kptcl_escom" ColumnName="ind_kptcl_escom" />
+          <ScalarProperty Name="ind_land_acquisition_details" ColumnName="ind_land_acquisition_details" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="lp_village_id" ColumnName="lp_village_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="ind_whether_accepted" ColumnName="ind_whether_accepted" />
+          <ScalarProperty Name="ind_lp_lat_d" ColumnName="ind_lp_lat_d" />
+          <ScalarProperty Name="ind_lp_lat_m" ColumnName="ind_lp_lat_m" />
+          <ScalarProperty Name="ind_lp_lat_s" ColumnName="ind_lp_lat_s" />
+          <ScalarProperty Name="ind_lp_long_d" ColumnName="ind_lp_long_d" />
+          <ScalarProperty Name="ind_lp_long_m" ColumnName="ind_lp_long_m" />
+          <ScalarProperty Name="ind_lp_long_s" ColumnName="ind_lp_long_s" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="industry_capacity" ColumnName="industry_capacity" />
+          <ScalarProperty Name="hyd_water_avail_dpr_unit" ColumnName="hyd_water_avail_dpr_unit" />
+          <ScalarProperty Name="hyd_requirement_unit" ColumnName="hyd_requirement_unit" />
+          <ScalarProperty Name="industry_capacity_unit_id" ColumnName="industry_capacity_unit_id" />
+          <ScalarProperty Name="ind_req_yearly_unit_id" ColumnName="ind_req_yearly_unit_id" />
+          <ScalarProperty Name="TRIAL035" ColumnName="TRIAL035" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="status_master">
+      <EntityTypeMapping TypeName="wrdModel1.status_master">
+        <MappingFragment StoreEntitySet="status_master">
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="desciption" ColumnName="desciption" />
+          <ScalarProperty Name="TRIAL035" ColumnName="TRIAL035" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="status_proposed_industry">
+      <EntityTypeMapping TypeName="wrdModel1.status_proposed_industry">
+        <MappingFragment StoreEntitySet="status_proposed_industry">
+          <ScalarProperty Name="status_proposed_id" ColumnName="status_proposed_id" />
+          <ScalarProperty Name="proposed_description" ColumnName="proposed_description" />
+          <ScalarProperty Name="TRIAL035" ColumnName="TRIAL035" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="storage_details">
+      <EntityTypeMapping TypeName="wrdModel1.storage_details">
+        <MappingFragment StoreEntitySet="storage_details">
+          <ScalarProperty Name="sd_id" ColumnName="sd_id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="stm_id" ColumnName="stm_id" />
+          <ScalarProperty Name="shape_id" ColumnName="shape_id" />
+          <ScalarProperty Name="length" ColumnName="length" />
+          <ScalarProperty Name="breadth" ColumnName="breadth" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="radius" ColumnName="radius" />
+          <ScalarProperty Name="capacity" ColumnName="capacity" />
+          <ScalarProperty Name="TRIAL035" ColumnName="TRIAL035" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="structure_type_master">
+      <EntityTypeMapping TypeName="wrdModel1.structure_type_master">
+        <MappingFragment StoreEntitySet="structure_type_master">
+          <ScalarProperty Name="stm_id" ColumnName="stm_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL035" ColumnName="TRIAL035" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="taluk_master">
+      <EntityTypeMapping TypeName="wrdModel1.taluk_master">
+        <MappingFragment StoreEntitySet="taluk_master">
+          <ScalarProperty Name="taluk_id" ColumnName="taluk_id" />
+          <ScalarProperty Name="taluk_name" ColumnName="taluk_name" />
+          <ScalarProperty Name="district_id" ColumnName="district_id" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="TRIAL035" ColumnName="TRIAL035" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tests">
+      <EntityTypeMapping TypeName="wrdModel1.test">
+        <MappingFragment StoreEntitySet="test">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="from_date" ColumnName="from_date" />
+          <ScalarProperty Name="to_date" ColumnName="to_date" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pk_id" ColumnName="pk_id" />
+          <ScalarProperty Name="ref1" ColumnName="ref1" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="unit_master">
+      <EntityTypeMapping TypeName="wrdModel1.unit_master">
+        <MappingFragment StoreEntitySet="unit_master">
+          <ScalarProperty Name="unit_id" ColumnName="unit_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_details">
+      <EntityTypeMapping TypeName="wrdModel1.user_details">
+        <MappingFragment StoreEntitySet="user_details">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="email_id" ColumnName="email_id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="industry_name" ColumnName="industry_name" />
+          <ScalarProperty Name="mobile_number" ColumnName="mobile_number" />
+          <ScalarProperty Name="email_auth_code" ColumnName="email_auth_code" />
+          <ScalarProperty Name="mobile_auth_code" ColumnName="mobile_auth_code" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="office_id" ColumnName="office_id" />
+          <ScalarProperty Name="designation_id" ColumnName="designation_id" />
+          <ScalarProperty Name="reporting_office_id" ColumnName="reporting_office_id" />
+          <ScalarProperty Name="reporting_role_id" ColumnName="reporting_role_id" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="village_master">
+      <EntityTypeMapping TypeName="wrdModel1.village_master">
+        <MappingFragment StoreEntitySet="village_master">
+          <ScalarProperty Name="village_id" ColumnName="village_id" />
+          <ScalarProperty Name="village_name" ColumnName="village_name" />
+          <ScalarProperty Name="taluk_id" ColumnName="taluk_id" />
+          <ScalarProperty Name="status_id" ColumnName="status_id" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="water_source_availability_master">
+      <EntityTypeMapping TypeName="wrdModel1.water_source_availability_master">
+        <MappingFragment StoreEntitySet="water_source_availability_master">
+          <ScalarProperty Name="wsa_id" ColumnName="wsa_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL051" ColumnName="TRIAL051" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="water_source_master">
+      <EntityTypeMapping TypeName="wrdModel1.water_source_master">
+        <MappingFragment StoreEntitySet="water_source_master">
+          <ScalarProperty Name="water_source_id" ColumnName="water_source_id" />
+          <ScalarProperty Name="water_source" ColumnName="water_source" />
+          <ScalarProperty Name="TRIAL051" ColumnName="TRIAL051" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="yes_no_master">
+      <EntityTypeMapping TypeName="wrdModel1.yes_no_master">
+        <MappingFragment StoreEntitySet="yes_no_master">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="TRIAL051" ColumnName="TRIAL051" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="project_status">
+      <EntityTypeMapping TypeName="wrdModel1.project_status">
+        <MappingFragment StoreEntitySet="project_status">
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="project_status_id" ColumnName="project_status_id" />
+          <ScalarProperty Name="status_date" ColumnName="status_date" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="office_master_id" ColumnName="office_master_id" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="assigned_to_office_id" ColumnName="assigned_to_office_id" />
+          <ScalarProperty Name="assigned_to_role_id" ColumnName="assigned_to_role_id" />
+          <ScalarProperty Name="assigned_from_role_id" ColumnName="assigned_from_role_id" />
+          <ScalarProperty Name="assigned_from_office_id" ColumnName="assigned_from_office_id" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="flag" ColumnName="flag" />
+          <ScalarProperty Name="day_limit" ColumnName="day_limit" />
+          <ScalarProperty Name="payment_ref_num" ColumnName="payment_ref_num" />
+          <ScalarProperty Name="payment_status" ColumnName="payment_status" />
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="TRIAL028" ColumnName="TRIAL028" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="test_table">
+      <EntityTypeMapping TypeName="wrdModel1.test_table">
+        <MappingFragment StoreEntitySet="test_table">
+          <ScalarProperty Name="dept" ColumnName="dept" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="test_table2">
+      <EntityTypeMapping TypeName="wrdModel1.test_table2">
+        <MappingFragment StoreEntitySet="test_table2">
+          <ScalarProperty Name="dept" ColumnName="dept" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vapt_tablee">
+      <EntityTypeMapping TypeName="wrdModel1.vapt_tablee">
+        <MappingFragment StoreEntitySet="vapt_tablee">
+          <ScalarProperty Name="dept" ColumnName="dept" />
+          <ScalarProperty Name="TRIAL038" ColumnName="TRIAL038" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spGetAddress" FunctionName="wrdModel1.Store.spGetAddress" />
+    <FunctionImportMapping FunctionImportName="spGetOfficeName" FunctionName="wrdModel1.Store.spGetOfficeName" />
+    <FunctionImportMapping FunctionImportName="spOffice" FunctionName="wrdModel1.Store.spOffice">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="wrdModel1.spOffice_Result">
+          <ScalarProperty Name="office_master_id" ColumnName="office_master_id" />
+          <ScalarProperty Name="organization_id" ColumnName="organization_id" />
+          <ScalarProperty Name="office_type_id" ColumnName="office_type_id" />
+          <ScalarProperty Name="office_name" ColumnName="office_name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="landline_no" ColumnName="landline_no" />
+          <ScalarProperty Name="mobile_no" ColumnName="mobile_no" />
+          <ScalarProperty Name="fax_no" ColumnName="fax_no" />
+          <ScalarProperty Name="email_id" ColumnName="email_id" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="multiple" ColumnName="multiple" />
+          <ScalarProperty Name="TRIAL022" ColumnName="TRIAL022" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

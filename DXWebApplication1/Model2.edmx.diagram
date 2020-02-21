@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d359d48538814d67a43a496b4f69fc36" Name="Diagram1">
+        <EntityTypeShape EntityType="wrdModel.appraisal_opinion_master" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.appraisal_recommendation_master" Width="1.5" PointX="12.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.basin_type_master" Width="1.5" PointX="6.75" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.day_master" Width="1.5" PointX="6.75" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.department_user_master" Width="1.5" PointX="9.75" PointY="85" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.designation_master" Width="1.5" PointX="4.5" PointY="75.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.district_master" Width="1.5" PointX="6.75" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.document_category_master" Width="1.5" PointX="12.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.document_details" Width="1.5" PointX="17.25" PointY="48.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.document_type_master" Width="1.5" PointX="15" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.document_type_master_kum" Width="1.5" PointX="15" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.drawal_mode_master" Width="1.5" PointX="6.75" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.final_recommendation" Width="1.5" PointX="20.25" PointY="56" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.furnish_master" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.holiday_master" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.industry_category_master" Width="1.5" PointX="6.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.industry_status_master" Width="1.5" PointX="6.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.industry_type_master" Width="1.5" PointX="9.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.kum_document_details" Width="1.5" PointX="17.25" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.kum_document_type_master" Width="1.5" PointX="15" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.kum_land_ownership_details" Width="1.5" PointX="17.25" PointY="52.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.kum_measures_details" Width="1.5" PointX="3" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.kum_project_details" Width="1.5" PointX="6" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.kum_storage_details" Width="1.5" PointX="17.25" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.land_ownership_details" Width="1.5" PointX="20.25" PointY="52.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.landtype_master" Width="1.5" PointX="15" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.login_statistics" Width="1.5" PointX="9" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.measure_master" Width="1.5" PointX="0.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.measures_details" Width="1.5" PointX="3" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.menu_details" Width="1.5" PointX="9.5" PointY="75.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.menu_role_assoc" Width="1.5" PointX="11.75" PointY="81.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.menu_submenu_assoc" Width="1.5" PointX="11.75" PointY="76.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.month_master" Width="1.5" PointX="6.75" PointY="67" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.office_master" Width="1.5" PointX="4.5" PointY="77.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.office_recommendation_upload" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.office_type_master" Width="1.5" PointX="2.25" PointY="79.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.organization_master" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.payment_details" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.payment_status" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.project_details" Width="1.5" PointX="9" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.project_next_status" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.project_status_master" Width="1.5" PointX="18" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.proposed_industry_status" Width="1.5" PointX="12.75" PointY="70.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.recommendation_status_master" Width="1.5" PointX="18" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.requirement_period_master" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.river_basin_master" Width="1.5" PointX="9.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.river_subbasin_master" Width="1.5" PointX="9.75" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.role_master" Width="1.5" PointX="4.5" PointY="83" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.shape_master" Width="1.5" PointX="15" PointY="80.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.site_inspection_allocation" Width="1.5" PointX="14.25" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.site_inspection_conditions" Width="1.5" PointX="17.25" PointY="65.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.site_inspection_details" Width="1.5" PointX="15" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.site_inspection_report" Width="1.5" PointX="12" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.status_master" Width="1.5" PointX="4.5" PointY="86.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.status_proposed_industry" Width="1.5" PointX="9.75" PointY="71" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.storage_details" Width="1.5" PointX="20.25" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.structure_type_master" Width="1.5" PointX="15" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.taluk_master" Width="1.5" PointX="4.5" PointY="71.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.test" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.unit_master" Width="1.5" PointX="0.75" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.user_details" Width="1.5" PointX="6.75" PointY="78.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.village_master" Width="1.5" PointX="6.75" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.water_source_availability_master" Width="1.5" PointX="6.75" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.water_source_master" Width="1.5" PointX="6.75" PointY="89.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.yes_no_master" Width="1.5" PointX="12.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.project_status" Width="1.5" PointX="20.25" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.test_table" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.test_table2" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="wrdModel.vapt_tablee" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="wrdModel.fk_sid_appr_ar_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.basin_type_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_basin_type_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_basin_type_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_from_day_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_from_day_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_to_day_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_to_day_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_um_designation_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_um_reporting_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_um_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_um_status_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ud_designation_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sm_status_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.document_type_master_kum_doc_category_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_doc_cat_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_doc_cat_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_dd_application_number" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_dd_doc_type_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_dd_updated_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_dmm_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_dmm_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_fr_appication_no" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_fr_rs_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_icm_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_icm_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_ism_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_ism_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.ism_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.industry_type_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_dd_updated_by_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.kum_document_details_doc_type_id_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.kum_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ld_landtype_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.kum_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_md_measure_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_md_unit_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.kum_id_2" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_created_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_from_day_month_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_from_month_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_location_village_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_lp_village_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_modified_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_req_pd_unit_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_req_yearly_unit_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_to_day_month_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_to_month_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_water_avail_unit_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_water_source_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_wsa_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.kum_id_3" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sm_shape_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_stm_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ld_application_number" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ld_landtype_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.user_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_md_measure_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_md_application_number" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_md_unit_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_mra_menu_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_msa_menu_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_msa_sub_menu_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_mra_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_from_day_month_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_from_month_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_to_day_month_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_to_month_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_office_master_off_type_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_office_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_to_office_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ud_office_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ud_reporting_office_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_created_by_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_location_village_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_lp_village_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_modified_by_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_req_pd_unit_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_req_yearly_unit_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_water_avail_unit_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_water_source_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_pd_wsa_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_application_number" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sd_application_number" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.minihydro_capacity_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_project_status_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_pis_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_rsm_river_basin_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.river_basin_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.rsm_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_to_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ud_reporting_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ud_role_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sm_shape_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.si_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sic_user_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.si_id_2" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.al_sid_bal_avail_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_aa_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_al_per_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_al_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_aow_entry_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_aow_quantum_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_aow_qunatum_exit_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_appr_water_availability_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_clean_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_clean_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_clean_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_conjunctive_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_conjunctive_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_conjunctive_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_cool_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_cool_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_cool_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_created_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_dom_purp_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_dom_purp_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_dom_purp_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_man_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_man_revised_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_man_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_modified_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_oa_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_op_effect" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_op_pollution" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_op_provosion_acceptable" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_op_whether_accepted" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_recycle_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_recycle_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_recycle_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_rwh_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_rwh_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_rwh_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_svg_by_savings_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_svg_by_seepage_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_treated_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_treated_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_treated_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_util_int_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_util_int_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_util_int_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_util_sep_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_util_sep_rev_req_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_sid_util_sep_saving_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_created_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_modified_by" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.lp_village_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.site_inspection_report_hyd_water_avail_dpr_unit_fkey" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.status_proposed_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.village_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.water_source_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.wsa_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_tm_status_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ud_status_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_vm_status_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_stm_id_1" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_vm_taluk_id" ManuallyRouted="false" />
+        <AssociationConnector Association="wrdModel.fk_ps_user_id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
